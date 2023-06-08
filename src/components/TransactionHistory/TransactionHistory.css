@@ -1,0 +1,16 @@
+.transactions-history {
+  width: 500px;
+  margin: 0px auto;
+  padding: 70px 50px;
+}
+.transactions-head {
+  background-color: aquamarine;
+  padding: 40px;
+}
+
+td {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid rgb(225, 213, 213);
+  box-shadow: inset 8px 8px 41px -36px rgba(66, 68, 90, 0.61);
+}
