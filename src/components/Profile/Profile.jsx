@@ -13,7 +13,7 @@ function Profile({ username, tag, location, avatar, stats }) {
 
       <ul className="stats">
         <li>
-          <span classNameName="label">Followers: </span>
+          <span className="label">Followers: </span>
           <span className="quantity">{stats.followers}</span>
         </li>
         <li>

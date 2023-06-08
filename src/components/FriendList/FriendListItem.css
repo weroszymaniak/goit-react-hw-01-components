@@ -1,0 +1,29 @@
+.statusOnline {
+  border-radius: 50%;
+  background-color: green;
+  width: 15px;
+  height: 15px;
+}
+.statusOffline {
+  border-radius: 50%;
+  background-color: red;
+  width: 15px;
+  height: 15px;
+}
+
+.friend-item {
+  display: flex;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  padding: 20px;
+  border-radius: 6px;
+}
+.friend-avatar {
+  width: 100px;
+  padding: 10px;
+  padding-left: 40px;
+}
+.friend-name {
+  padding: 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
