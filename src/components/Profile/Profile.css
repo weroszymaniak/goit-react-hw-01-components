@@ -1,0 +1,35 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 80px;
+  border-radius: 5%;
+  padding: 25px 30px;
+  background-color: #adeaea;
+  border: 2px cornflowerblue;
+}
+.avatar {
+  width: 250px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.tag {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.location {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.stats {
+  margin-top: 25px;
+}
