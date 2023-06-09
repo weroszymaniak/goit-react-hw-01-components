@@ -1,21 +1,21 @@
 import PropTypes from 'prop-types';
-import './Statistics.css';
+import css from './Statistics.module.css';
 
 function Statistics({ title, stats }) {
   return (
-    <section className="statistics">
-      {title && <h2 className="title">{title}</h2>}
+    <section className={css.statistics}>
+      {title && <h2 className={css.title}>{title}</h2>}
 
-      <ul className="stat-list">
+      <ul className={css.statsList}>
         {stats.map(({ id, label, percentage }) => {
           return (
             <li
-              className="item"
+              className={css.item}
               key={id}
               style={{ backgroundColor: getRandomHexColor() }}
             >
-              <span className="label">{label}</span>
-              <span className="percentage">{percentage}</span>
+              <span className={css.label}>{label}</span>
+              <span className={css.percentage}>{percentage}</span>
             </li>
           );
         })}

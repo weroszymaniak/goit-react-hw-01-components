@@ -1,9 +1,9 @@
-.transactions-history {
+.transactionsHistory {
   width: 500px;
   margin: 0px auto;
   padding: 70px 50px;
 }
-.transactions-head {
+.transactionsHead {
   background-color: aquamarine;
   padding: 40px;
 }

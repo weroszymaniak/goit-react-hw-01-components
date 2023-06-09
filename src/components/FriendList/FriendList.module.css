@@ -1,4 +1,4 @@
-.friend-list {
+.friendList {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
